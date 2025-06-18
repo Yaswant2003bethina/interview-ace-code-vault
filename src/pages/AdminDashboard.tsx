@@ -278,9 +278,7 @@ export default function AdminDashboard() {
                       <Input
                         id="optionB"
                         value={mcqForm.optionB}
-                        onChange={(e) => setMcqForm({...mcqForm, opt
-
-ionB: e.target.value})}
+                        onChange={(e) => setMcqForm({...mcqForm, optionB: e.target.value})}
                         placeholder="Enter option B"
                         required
                       />
